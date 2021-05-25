@@ -6,7 +6,8 @@ Evaluate-a-News-Article & Webpack project
 * server
 
 ## instructions
- -npm i for install node modules
- -npm run build-prod for production
- -npm run build-dev for dev enviroment
- -npm run start for run server
+ * `npm i for install node modules`
+ * `npm i for install node modules`
+ * `npm run build-prod for production`
+ * `npm run build-dev for dev enviroment`
+ * `npm run start for run server`
