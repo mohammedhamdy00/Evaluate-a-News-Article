@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Scan your article</title>
+  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+  <div class="searchInput">
+    <form>
+      <input id="url" type="text" name="urlToScan" placeholder="Enter your URL">
+      <input type="submit" name="" value="Scan Article" onclick="return Scanner.handleURLSubmit(event)">
+      <span id="invalidURL" class="invalidURL">Kindly enter a valid URL</span>
+  </form>
+
+  </div>
+  <div class="resultContainer">
+    <span class="resultHeader">Results:</span>
+    <div id="polarity" class="item"></div>
+    <div id="agreement" class="item"></div>
+    <div id="subjectivity" class="item"></div>
+    <div id="confidence" class="item"></div>
+    <div id="irony" class="item"></div>
+    <div id="noResult">Kindly Add URL to Scan</div>
+  </div>
+  
+  <div id="app"></div>
+  <script src="main.js"></script>
+</body>
+</html>
