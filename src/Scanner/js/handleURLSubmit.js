@@ -1,4 +1,4 @@
-import {ValidateURL} from './ValidateURL'
+const {ValidateURL} = require('./ValidateURL')
 
 async function handleURLSubmit(event) {
     event.preventDefault()
@@ -23,4 +23,4 @@ async function handleURLSubmit(event) {
     }
 }
 
-export {handleURLSubmit}
+module.exports= {handleURLSubmit};

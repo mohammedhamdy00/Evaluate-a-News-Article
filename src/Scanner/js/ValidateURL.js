@@ -8,4 +8,4 @@ function ValidateURL(URL){
         return false;
     }
 }
-export {ValidateURL};
+module.exports= {ValidateURL};
